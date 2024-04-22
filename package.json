@@ -11,5 +11,6 @@
     "npm"
   ],
   "author": "Tim Harrison",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/tim-harrison11/test-travis-package-npm-deploy"
 }
