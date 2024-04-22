@@ -9,7 +9,7 @@ ruby:
 env:
 - TRAVIS_RUBY_VERSION=ruby-3.2.0
 before_install:
-  - rvm use 3.0.0 --install --binary --fuzzy
+  - rvm use 3.2.0 --install --binary --fuzzy
 before_deploy:
   - rvm use ruby-3.2.0
 deploy:
