@@ -6,9 +6,11 @@ install: skip
 script: sleep 1
 deploy:
   provider: npm
-  email: "the.tim.harrison10@gmail.com"
-  api_key: 
-    secure: "${NPM_API_KEY}"
-  skip_cleanup: true
+  email: the.tim.harrison10@gmail.com
+  api_key:
+    secure: QvD3shV9v9ePSYkX27iGwb2vJtBcWIMUSnxt9vxWwXmjJIU0HNr3BNvK7KtdiKq8woTJzypy6jkPZqbNqz+UoTPMxejYShCOYi/v0KsICoXgtKpKJRBKJu4fiwMTYtNS/+IWARM8VKdDvaiBB28Gb2cQc2ebscmmMnS0rnxyrhukq6HzHNR5vJOOWaxy2aTa4scrIQt7zPYjOIWMrgDYk5uDbMWep/1T2HniCXfb0cN/cOZO5J8QFhXmJ3IV+nKI3jFHw2JF1vqWmwq6nlK165RhRcjfYFKMbxG8s+3dPQXRRt9PmaZrWe7CWbQcATZAemzzd6ldMjAKgX7RtGkTjJIRTKJFGlTSk8720FScFxfOmf48s/Vg755aYdn4lz4SDdzAhRtPZU680ZxLfU8JoXaWnRSWp4xpyJPLYvhl0MTcd841y5SiBZt/KOlfyAa8IIBJFKc0gdWjRO3Yy5RuJfT2Q7vpDYuc4xMQLkgoXNNytEqSU7PvNWt+/Rei+HS9c1l96nB6H5dXm73JZZkAzE33LPHzeUsOstykmfttt/hgIr78HsxUnpwrs+bzNPFN2ryiriXa8B879mpIBVnzv2O8M7t/OoNSiyrfclUD5Ix1p0XGg0o0eSEyUv65xGAl5FsIKimEu+saBQaI3dFYPwaPoBAkDrVPnmdjFJ02Fjg=
   on:
     tags: true
+    repo: tim-harrison11/test-travis-package-npm-deploy
+    branch: main
+  skip_cleanup: 'true'
