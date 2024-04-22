@@ -4,10 +4,12 @@ language: node_js
 node_js: 18.19.0
 install: skip
 script: sleep 1
+ruby:
+  - 3.2.0
 env:
 - TRAVIS_RUBY_VERSION=ruby-3.2.0
 before_install:
-  - rvm install 3.2.0
+  - rvm use 3.0.0 --install --binary --fuzzy
 before_deploy:
   - rvm use ruby-3.2.0
 deploy:
