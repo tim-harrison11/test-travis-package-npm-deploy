@@ -10,6 +10,7 @@ before_deploy:
   - rvm use ruby-3.2.0
 deploy:
   provider: npm
+  script: rvm use ruby-3.2.0
   edge:
     source: travis-ci/dpl
     branch: bfsy-290-am
