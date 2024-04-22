@@ -6,6 +6,8 @@ install: skip
 script: sleep 1
 before_install:
   - rvm install 3.2.0
+before_deploy:
+  - rvm use ruby-3.2.0
 deploy:
   provider: npm
   edge:
